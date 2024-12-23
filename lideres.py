@@ -1,3 +1,6 @@
+from recuros import Recursos
+from tropas import Tropas
+
 class Lideres(Recursos, Tropas):
     num_jugadores = 0  # Atributo estático para contar el número de jugadores
 
